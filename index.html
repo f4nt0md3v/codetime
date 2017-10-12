@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title> CodeTime.kz - Школа программирования для всех</title>
+    <meta charset='UTF-8'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <meta content='codetime.kz' name='author'>
+    <meta content='CodeTime.kz - Школа программирования для всех' name='description'>
+    <meta content='codetime, школа программирования, программирование' name='keywords'>
+    <link charset='utf-8' href='stylesheets/main.css' media='screen' rel='stylesheet' type='text/css'>
+    <!-- / FAVICON MADNESS!! -->
+    <link href='images/favicon/favicon.ico' rel='shortcut icon'>
+    <link href='images/favicon/apple-touch-icon-57x57.png' rel='apple-touch-icon' sizes='57x57'>
+    <link href='images/favicon/apple-touch-icon-60x60.png' rel='apple-touch-icon' sizes='60x60'>
+    <link href='images/favicon/apple-touch-icon-72x72.png' rel='apple-touch-icon' sizes='72x72'>
+    <link href='images/favicon/apple-touch-icon-76x76.png' rel='apple-touch-icon' sizes='76x76'>
+    <link href='images/favicon/apple-touch-icon-114x114.png' rel='apple-touch-icon' sizes='114x114'>
+    <link href='images/favicon/apple-touch-icon-120x120.png' rel='apple-touch-icon' sizes='120x120'>
+    <link href='images/favicon/apple-touch-icon-144x144.png' rel='apple-touch-icon' sizes='144x144'>
+    <link href='images/favicon/apple-touch-icon-152x152.png' rel='apple-touch-icon' sizes='152x152'>
+    <link href='images/favicon/apple-touch-icon-180x180.png' rel='apple-touch-icon' sizes='180x180'>
+    <!-- %link{:href => "images/favicon/favicon-32x32.png", :rel => "icon", :sizes => "32x32", :type => "image/png"} -->
+    <link href='images/favicon/android-chrome-192x192.png' rel='icon' sizes='192x192' type='image/png'>
+    <link href='images/favicon/favicon-96x96.png' rel='icon' sizes='96x96' type='image/png'>
+    <link href='images/favicon/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png'>
+    <link href='images/favicon/manifest.json' rel='manifest'>
+    <meta content='#2d2d2d' name='msapplication-TileColor'>
+    <meta content='images/favico/mstile-144x144.png' name='msapplication-TileImage'>
+    <meta content='#ffffff' name='theme-color'>
+  </head>
+  <body class='nav-is-open' id='home'>
+    <header>
+      <a href='index.html' id='logo'>codetime.kz</a>
+      <div class='social'>
+        <a class='circle facebook' href='https://www.facebook.com/codetime' target='_blank' title='Facebook'>
+          <i class='fa fa-facebook'></i>
+        </a>
+        <a class='circle twitter' href='https://twitter.com/codetime' target='_blank' title='Twitter'>
+          <i class='fa fa-twitter'></i>
+        </a>
+        <a class='github' href='https://github.com/codetime' target='_blank' title='Github'>
+          <i class='fa fa-github'></i>
+        </a>
+        <a class='circle instagram' href='https://instagram.com/codetime.kz' target='_blank' title='Instagram'>
+          <i class='fa fa-instagram'></i>
+        </a>
+      </div>
+    </header>
+    <button aria-label='Toggle Navigation' class='close lines-button x' role='button' type='button'>
+      <span class='lines'></span>
+    </button>
+    <nav>
+      <ul>
+        <li class='active home'>
+          <a href='index.html#hero'>
+            <div class='dot'></div>
+            <span>Начало</span>
+          </a>
+        </li>
+        <li class='about'>
+          <a href='index.html#about'>
+            <div class='dot'></div>
+            <span>О CodeTime.kz</span>
+          </a>
+        </li>
+        <li class='services'>
+          <a href='index.html#services'>
+            <div class='dot'></div>
+            <span>Курсы</span>
+          </a>
+        </li>
+        <li class='team'>
+          <a href='index.html#team'>
+            <div class='dot'></div>
+            <span>Команда</span>
+          </a>
+        </li>
+        <li class='portfolio'>
+          <a href='index.html#portfolio'>
+            <div class='dot'></div>
+            <span>Portfolio</span>
+          </a>
+        </li>
+        <li class='talks_and_events'>
+          <a href='index.html#talks_and_events'>
+            <div class='dot'></div>
+            <span>Talks & Events</span>
+          </a>
+        </li>
+        <li class='join_us'>
+          <a href='join-us.html'>
+            <div class='dot'></div>
+            <span>Join Us</span>
+          </a>
+        </li>
+        <li class='contact'>
+          <a href='index.html#contact'>
+            <div class='dot'></div>
+            <span>Контакты</span>
+          </a>
+        </li>
+        <li class='blog'>
+          <a href='https://blog.codetime.kz' target='_blank'>
+            <div class='dot'></div>
+            <span>Blog</span>
+          </a>
+        </li>
+      </ul>
+      <!-- <ol>
+        <li class='current'>
+          <a href='index.html#'>EN</a>
+        </li>
+        <li>
+          <a href='es/index.html'>ESP</a>
+        </li>
+      </ol> -->
+    </nav>
+    <section id='hero'>
+      <div class='heading'>
+        <h1>
+          We
+          <strong data-words='code learn share'></strong>
+        </h1>
+        <p>Wecode is a network of software professionals who take great pride in helping develop the projects they work on. Wecode is not a company, just a bunch of freelancers working and progressing together.</p>
+      </div>
+    </section>
+    <section id='about'>
+      <div class='wrapper'>
+        <div class='flex-container'><div class='left'>
+            <h3 class='subtitle'>
+              <span>Our story</span>
+            </h3>
+            <h2 class='title'>
+              About <span>Us</span>
+            </h2>
+          </div><div class='right'>
+            <h4>As a network of software professionals, we work independently but with the support of the group. You may hire one of us or many of us, but you always get the wisdom of many.</h4>
+          </div></div>
+        <div class='flex-container'><aside class='left'>
+            <h5>How can we help you?</h5>
+            <ul>
+              <li>
+                <h6>
+                  <span>we</span> code
+                </h6>
+                <p>We build solid, yet flexible solutions to maximize product value.</p>
+              </li>
+              <li>
+                <h6>
+                  <span>we</span> learn
+                </h6>
+                <p>Our hands-on approach to taking on everyday challenges differentiates us in our industry.</p>
+              </li>
+              <li>
+                <h6>
+                  <span>we</span> share
+                </h6>
+                <p>Through our presentations and workshops, we draw on and add to the wisdom and expertise of the community.</p>
+              </li>
+            </ul>
+          </aside><article class='right'>
+            <div class='cloud'></div>
+            <h5>
+              Everyone in the network<br>shares our work values:
+            </h5>
+            <ul class='values'>
+              <li>Trustworthy</li>
+              <li>Good communicators</li>
+              <li>Eternal apprentices</li>
+              <li>Independent and self-organized</li>
+            </ul>
+            <div class='wecoders'>
+              <div class='nico'></div>
+              <div class='lucas'></div>
+              <div class='wico'></div>
+              <div class='line'></div>
+            </div>
+          </article></div>
+      </div>
+    </section>
+    <section id='services'>
+      <div class='wrapper'>
+        <h3 class='subtitle'>
+          <span>What we do</span>
+        </h3>
+        <h2 class='title'>
+          <span>Our</span>
+          Services
+        </h2>
+        <ul><li class='web'>
+            <div class='illustration'>
+              <div class='circle staggered-animation-container wow fadeInUp' data-wow-delay='0s' data-wow-duration='1s'>
+                <div class='clouds wow fadeInUp' data-wow-delay='0s' data-wow-duration='1s'></div>
+              </div>
+              <div class='macbook staggered-animation' data-os-animation-delay='0.75s' data-os-animation='fadeInUp'>
+                <div class='screen'></div>
+              </div>
+              <div class='cloud-container staggered-animation' data-os-animation-delay='1.25s' data-os-animation='fadeInLeft'>
+                <div class='cloud'>
+                  <i class='fa fa-cog fa-spin'></i>
+                </div>
+              </div>
+            </div>
+            <h4 class='wow fadeInUp' data-wow-delay='1s' data-wow-duration='1s'>Web</h4>
+            <p class='wow fadeInUp' data-wow-delay='1.25s' data-wow-duration='1s'>
+              We take the WEB seriously. We focus on building scalable cloud applications, <strong> RESTful APIs, SEO and web analytics</strong> based analysis.
+            </p>
+          </li><li class='mobile'>
+            <div class='illustration'>
+              <div class='circle staggered-animation-container wow fadeInUp' data-wow-delay='0.25s' data-wow-duration='1s'>
+                <div class='motion-lines'></div>
+                <img alt='Monkey holding a smartphone' class='wow rotateInUpRight' data-wow-delay='1s' data-wow-duration='1s' src='images/services/hand.png'>
+              </div>
+            </div>
+            <h4 class='wow fadeInUp' data-wow-delay='1s' data-wow-duration='1s'>Mobile</h4>
+            <p class='wow fadeInUp' data-wow-delay='1s' data-wow-duration='1.25s'>We craft mobile experiences: Android, iOS and Windows Phone apps with a mobile optimized website fallback.</p>
+          </li><li class='ux'>
+            <div class='illustration'>
+              <div class='circle staggered-animation-container wow fadeInUp' data-wow-delay='0.5s' data-wow-duration='1s'>
+                <div class='imac wow bounceInUp' data-wow-delay='0s' data-wow-duration='2s'></div>
+                <div class='bender'></div>
+              </div>
+              <div class='bender head wow fadeInUp' data-wow-delay='0.5s' data-wow-duration='1s'></div>
+            </div>
+            <h4 class='wow fadeInUp' data-wow-delay='1s' data-wow-duration='1s'>User Experience (UX)</h4>
+            <p class='wow fadeInUp' data-wow-delay='1s' data-wow-duration='1.25s'>We use data to guide the design of user-centered interfaces, drive usability tests and perform UX reviews.</p>
+          </li><li class='education'>
+            <div class='illustration'>
+              <div class='circle staggered-animation-container wow fadeInUp' data-wow-delay='0.75s' data-wow-duration='1s'>
+                <div class='board wow slideInUp' data-wow-delay='1.0s' data-wow-duration='1s'></div>
+                <div class='piba wow slideInUp' data-wow-delay='1.5s' data-wow-duration='1s'></div>
+                <div class='vader wow slideInUp' data-wow-delay='1.25s' data-wow-duration='1s'></div>
+                <div class='nico wow slideInUp' data-wow-delay='1.75s' data-wow-duration='1s'></div>
+              </div>
+            </div>
+            <h4 class='wow fadeInUp' data-wow-delay='1s' data-wow-duration='1s'>Education</h4>
+            <p class='wow fadeInUp' data-wow-delay='1s' data-wow-duration='1.25s'>We love to spread the word. <br> We give talks and workshops whenever we can.</p>
+          </li></ul>
+      </div>
+    </section>
+    <section id='team'>
+      <div class='wrapper'>
+        <h3 class='subtitle'>
+          <span>Who we are</span>
+        </h3>
+        <h2 class='title'>
+          <span>Our</span> Team
+        </h2>
+        <ol><li id='ceneon'>
+            <h4>Nicolás Cerrini</h4>
+            <h5>Problem Solver</h5>
+            <div class='links'>
+              <a href='https://github.com/ceneon' target='_blank'>
+                <i class='fa fa-github'></i>
+              </a>
+              <a href='https://twitter.com/ceneon' target='_blank'>
+                <i class='fa fa-twitter'></i>
+              </a>
+              <a href='https://www.linkedin.com/in/nicolascerrini' target='_blank'>
+                <i class='fa fa-linkedin'></i>
+              </a>
+              <a href='https://www.flickr.com/photos/ceneon' target='_blank'>
+                <i class='fa fa-flickr'></i>
+              </a>
+            </div>
+            <div class='illustration nico-cerrini'>
+              <div class='wecoder os-animation'></div>
+              <div class='compu'></div>
+              <div class='mouse'></div>
+            </div>
+            <p>
+              Co-founder of Ruby Argentina Asociación Civil, organizer of <a href='http://rubyconfargentina.org'>RubyConf Argentina</a>, Nico has a degree in Software Engineering. During his years working for a zillion clients he has gained experience in very diverse areas of the software industry. He loves taking short trips around the world and taking pictures in his spare time.
+            </p>
+          </li><li id='cristianrasch'>
+            <h4>Cristian Rasch</h4>
+            <h5>FOSS Evangelist</h5>
+            <div class='links'>
+              <a href='https://github.com/cristianrasch' target='_blank'>
+                <i class='fa fa-github'></i>
+              </a>
+              <a href='https://twitter.com/cristianrasch' target='_blank'>
+                <i class='fa fa-twitter'></i>
+              </a>
+              <a href='https://www.linkedin.com/in/cristianrasch' target='_blank'>
+                <i class='fa fa-linkedin'></i>
+              </a>
+            </div>
+            <div class='illustration cristian-rasch'>
+              <div class='wecoder os-animation'></div>
+              <div class='compu'></div>
+            </div>
+            <p>
+              Cristian is a consultant who takes pride in leveraging free & open-source software to help companies of all sizes meet their goals. A true expert in automation and consolidation of backend processes, he will go to great lengths to remove the pain from your daily business operations.
+            </p>
+          </li><li id='delucas'>
+            <h4>Lucas Videla</h4>
+            <h5>Code Nerd</h5>
+            <div class='links'>
+              <a href='https://github.com/delucas' target='_blank'>
+                <i class='fa fa-github'></i>
+              </a>
+              <a href='https://twitter.com/luke_ar' target='_blank'>
+                <i class='fa fa-twitter'></i>
+              </a>
+              <a href='https://www.linkedin.com/in/delucas' target='_blank'>
+                <i class='fa fa-linkedin'></i>
+              </a>
+            </div>
+            <div class='illustration lucas-videla'>
+              <div class='wecoder os-animation'></div>
+              <div class='compu'></div>
+            </div>
+            <p>
+              Lucas is a tireless learner and practitioner of the art of software construction. He lectures at two universities and loves taking and facilitating workshops to share and improve his knowledge.
+            </p>
+          </li><li id='reyes'>
+            <h4>Manuel Barros Reyes</h4>
+            <h5>Curiosity driven developer</h5>
+            <div class='links'>
+              <a href='https://github.com/manuca' target='_blank'>
+                <i class='fa fa-github'></i>
+              </a>
+              <a href='https://www.linkedin.com/in/manuelbarrosreyes' target='_blank'>
+                <i class='fa fa-linkedin'></i>
+              </a>
+            </div>
+            <div class='illustration manuel-barros-reyes'>
+              <div class='wecoder os-animation'></div>
+              <div class='compu'></div>
+            </div>
+            <p>
+              Manuel has been programming since his teen years after he received a 2400 bps modem and discovered the hidden world BBSs, assembly language and tutorials that would change him forever. Nowadays he spends most of his time doing full-stack web development with Ruby, reading tons of stuff on the interent and trying to finish his Electronic Engineering career at the Universidad de Buenos Aires.
+            </p>
+          </li><li id='wacko'>
+            <h4>Joaquín Vicente</h4>
+            <h5>Coffee Lover</h5>
+            <div class='links'>
+              <a href='https://github.com/wacko' target='_blank'>
+                <i class='fa fa-github'></i>
+              </a>
+              <a href='https://twitter.com/joaquinvicente' target='_blank'>
+                <i class='fa fa-twitter'></i>
+              </a>
+              <a href='https://www.linkedin.com/in/joaquinvicente' target='_blank'>
+                <i class='fa fa-linkedin'></i>
+              </a>
+            </div>
+            <div class='illustration joaquin-vicente'>
+              <div class='wecoder os-animation'></div>
+              <div class='compu'></div>
+            </div>
+            <p>
+              Software engineer and Ruby on Rails hacker. He's a versatile developer and best practices enthusiast. As a child he used to spend his time building things with LEGOs. Now he enjoys hacking and building stuff with code. He loves to constantly learn and teach.
+            </p>
+          </li><li id='arosenthal'>
+            <h4>Alicia Rosenthal</h4>
+            <h5>Creative Fixer</h5>
+            <div class='links'>
+              <a href='https://github.com/AliciaRosenthal' target='_blank'>
+                <i class='fa fa-github'></i>
+              </a>
+              <a href='https://www.linkedin.com/pub/alicia-rosenthal/20/735/681' target='_blank'>
+                <i class='fa fa-linkedin'></i>
+              </a>
+              <a href='https://www.pinterest.com/alicia3197/' target='_blank'>
+                <i class='fa fa-pinterest'></i>
+              </a>
+            </div>
+            <div class='illustration alicia-rosenthal'>
+              <div class='wecoder os-animation'></div>
+              <div class='compu'></div>
+            </div>
+            <p>
+              Web designer and animator, she loves challenges and learning new things. She teaches at two universities and likes to facilitate workshops and initiate new projects. She's gained experience in different areas such as SEO, design, and animation. In her spare time, she likes to watch TV shows, swim, and has fun being a clown.
+            </p>
+          </li><li id='nan'>
+            <h4>Gastón Nan</h4>
+            <h5>Timeless amateur</h5>
+            <div class='links'>
+              <a href='https://github.com/nan-apps' target='_blank'>
+                <i class='fa fa-github'></i>
+              </a>
+              <a href='https://www.linkedin.com/in/nangastonr' target='_blank'>
+                <i class='fa fa-linkedin'></i>
+              </a>
+            </div>
+            <div class='illustration gaston-nan'>
+              <div class='wecoder os-animation'></div>
+              <div class='compu'></div>
+            </div>
+            <p>
+              Nan has been developing systems for small and medium organizations for several years, yet he does it with humility, energy and enthusiasm like a young apprentice. With this same principle he faces all activities in his life, like cooking, skateboarding and music.
+            </p>
+          </li><li id='pisano'>
+            <h4>Daniel Pisano</h4>
+            <h5>Ninja Web Developer</h5>
+            <div class='links'>
+              <a href='https://twitter.com/edanps' target='_blank'>
+                <i class='fa fa-twitter'></i>
+              </a>
+              <a href='https://www.flickr.com/photos/edanps' target='_blank'>
+                <i class='fa fa-flickr'></i>
+              </a>
+            </div>
+            <div class='illustration daniel-pisano'>
+              <div class='wecoder os-animation'></div>
+              <div class='compu'></div>
+            </div>
+            <p>
+              Future engineer. His experience in web development and a broad range of skills, makes Daniel unbeatable against the most feared software project. He has a special interest in academic research and in sharing his knowledge through scientific papers, articles and lectures. He is currently studying to be a User Experience guru.
+            </p>
+          </li><li id='ago'>
+            <h4>Agostina Figueredo</h4>
+            <h5>Ailurophile</h5>
+            <div class='links'>
+              <a href='https://github.com/agofig' target='_blank'>
+                <i class='fa fa-github'></i>
+              </a>
+              <a href='https://www.linkedin.com/in/agostina' target='_blank'>
+                <i class='fa fa-linkedin'></i>
+              </a>
+            </div>
+            <div class='illustration agostina-figuerado'>
+              <div class='wecoder os-animation'></div>
+              <div class='compu'></div>
+            </div>
+            <p>
+              Web development is her thing. Learning enthusiast. Avid blog reader.
+            </p>
+          </li><li id='tiagox'>
+            <h4>Santiago Rojo</h4>
+            <h5>Code Inquisitor</h5>
+            <div class='links'>
+              <a href='https://github.com/tiagox' target='_blank'>
+                <i class='fa fa-github'></i>
+              </a>
+              <a href='https://twitter.com/tiagox' target='_blank'>
+                <i class='fa fa-twitter'></i>
+              </a>
+              <a href='https://www.linkedin.com/in/tiagox' target='_blank'>
+                <i class='fa fa-linkedin'></i>
+              </a>
+            </div>
+            <div class='illustration santiago-rojo'>
+              <div class='wecoder os-animation'></div>
+              <div class='compu'></div>
+            </div>
+            <p>
+              Engineer in process. Santiago's constantly looking to enhance his programming skills and become a better professional. He enjoys working on many things, from front-end technologies up to the lowest-level hardware programming. He also spends his time on movies, music, TV series and taking photos from time to time.
+            </p>
+          </li><li>
+            <h4>Wico</h4>
+            <h5>WeCode Mascot</h5>
+            <div class='links'>
+              <a class='circle facebook' href='https://www.facebook.com/wecodeio' target='_blank' title='Facebook'>
+                <i class='fa fa-facebook'></i>
+              </a>
+              <a class='circle twitter' href='https://twitter.com/wecodeio' target='_blank' title='Twitter'>
+                <i class='fa fa-twitter'></i>
+              </a>
+              <a class='github' href='https://github.com/wecodeio' target='_blank' title='Github'>
+                <i class='fa fa-github'></i>
+              </a>
+              <a class='circle flickr' href='https://flickr.com/wecodeio' target='_blank' title='Flickr'>
+                <i class='fa fa-flickr'></i>
+              </a>
+            </div>
+            <div class='illustration wico'>
+              <div class='wecoder os-animation'></div>
+              <div class='compu'></div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          </li><li>
+            <h4>Want to join our team?</h4>
+            <div class='avatar'></div>
+            <a class='btn suffix' href='join-us.html'>Learn More</a>
+          </li></ol>
+      </div>
+    </section>
+    <section id='portfolio'>
+      <div class='wrapper'>
+        <h3 class='subtitle'>
+          <span>What we made</span>
+        </h3>
+        <h2 class='title'>
+          <span>Our</span>
+          portfolio
+        </h2>
+        <!-- %img{:src=>"images/portfolio/briefcase.png", :alt=>"Briefcase"} -->
+        <div class='parallax-container'>
+          <ul class='scene unselectable' data-friction-x='0.1' data-friction-y='0.1' data-scalar-x='25' data-scalar-y='15' id='scene'>
+            <li class='layer' data-depth='0.15'>
+              <img class='editor-1' src='images/portfolio/editor-1.svg'>
+            </li>
+            <li class='layer' data-depth='0.10'>
+              <img class='editor-2' src='images/portfolio/editor-2.svg'>
+            </li>
+            <li class='layer' data-depth='0.20'>
+              <img class='editor-3' src='images/portfolio/editor-3.svg'>
+            </li>
+            <li class='layer' data-depth='0.30'>
+              <img class='editor-4' src='images/portfolio/editor-4.svg'>
+            </li>
+            <li class='layer' data-depth='0.40'>
+              <img class='editor-5' src='images/portfolio/editor-5.svg'>
+            </li>
+            <li class='layer' data-depth='0.30'>
+              <img class='editor-6' src='images/portfolio/editor-6.svg'>
+            </li>
+            <li class='layer' data-depth='0.10'>
+              <img alt='Briefcase' class='briefcase' src='images/portfolio/briefcase.png'>
+            </li>
+          </ul>
+        </div>
+        <div class='os-animation' id='project-count'>
+          <span>Project</span>
+          <div id='number'>2761</div>
+          <span>Count</span>
+        </div>
+        <a class='btn suffix' href='portfolio.html'>View our work</a>
+      </div>
+    </section>
+    <!-- %section#testimonials= partial("partials/_testimonials.haml") -->
+    <section id='talks_and_events'>
+      <div class='wrapper'>
+        <h3 class='subtitle'>
+          <span>What we talk about</span>
+        </h3>
+        <h2 class='title'>
+          Talks
+          <span>&</span>
+          Events
+        </h2><div id='events'>
+          <a class='all' href='talks-and-events.html'>See all</a>
+          <h4>Events</h4>
+          <div class='alert'><p>
+              We're taking a break until we have new events. Nevertheless, you can take a look at the <a href="talks-and-events.html">previous events</a>.
+            </p></div>
+          <div class='cta'>
+            <h3>Stay up to date with our latest news and events.</h3>
+            <a class='btn facebook' href='https://www.facebook.com/groups/781668038590940/events/' target='_blank'>Join our Group</a>
+          </div>
+        </div><div id='talks'>
+          <a class='all' href='talks-and-events.html'>See all</a>
+          <h4>Talks</h4>
+          <ul>
+            <li class='video'>
+              <a href='http://confy.wecode.io/talks/2014/rubyconfar/you-already-git-started-now-what' target='blank'>You already git started. Now what?</a>
+            </li>
+            <li class='video'>
+              <a href='http://confy.wecode.io/talks/2014/rubyconfuy/pastilla-azul-o-pastilla-roja' target='blank'>Blue pill or red pill? The path of a boss-less mind</a>
+            </li>
+            <li class='video'>
+              <a href='http://confy.wecode.io/talks/2013/rubyconfar/rack-and-roll' target='blank'>Rack and Roll</a>
+            </li>
+            <li class='video'>
+              <a href='http://confy.wecode.io/talks/2013/startechconf/lightning-talk-braid' target='blank'>Lightning Talk. Braid, teaching platform</a>
+            </li>
+            <li class='video'>
+              <a href='http://confy.wecode.io/talks/2013/rubyconfuy/despliegue-de-aplicaciones-rack-sobre-la-jvm' target='blank'>Rack application deployment over JVM</a>
+            </li>
+          </ul>
+        </div></div>
+    </section>
+    <section id='contact'>
+      <div class='wrapper'>
+        <h3 class='subtitle'>
+          <span>
+            Ask us a question
+          </span>
+        </h3>
+        <h2 class='title'>
+          Contact
+          <span>
+            us
+          </span>
+        </h2>
+        <form action='/send' method='post'>
+          <input name='lang' type='hidden' value='en'><input name='name' placeholder='Name' type='text'><input name='email' placeholder='Email' type='email'><textarea name='message' placeholder='Message'></textarea><input class='btn' type='submit' value='Send'>
+        </form>
+        <div class='social'>
+          <a class='circle facebook' href='https://www.facebook.com/codetime' target='_blank' title='Facebook'>
+            <i class='fa fa-facebook'></i>
+          </a>
+          <a class='circle twitter' href='https://twitter.com/codetime' target='_blank' title='Twitter'>
+            <i class='fa fa-twitter'></i>
+          </a>
+          <a class='github' href='https://github.com/codetime' target='_blank' title='Github'>
+            <i class='fa fa-github'></i>
+          </a>
+          <a class='circle instagram' href='https://instagram.com/codetime.kz' target='_blank' title='Flickr'>
+            <i class='fa fa-instagram'></i>
+          </a>
+        </div>
+        <p>We live in Argentina. We code for The World.</p>
+        <p class='contact-data'>
+          +7 (778) 795-3585
+          <a href='mailto:hello@codetime.kz'>
+            hello@codetime.kz
+          </a>
+        </p>
+        <div class='wico'></div>
+      </div>
+    </section>
+    <footer>
+      ©
+      <script>
+        document.write((new Date()).getFullYear());
+      </script>
+      Все права закреплены за 
+      <strong>codetime.kz</strong>
+      <a href='https://codetime.kz' id='ct' target='_blank'>
+        Разработано в
+        <strong>CodeTime.kz</strong>
+      </a>
+    </footer>
+    <script src='javascripts/jquery-1.11.3.min.js'></script>
+    <script src='javascripts/jquery.easing.1.3.js'></script>
+    <script src='javascripts/typed.js'></script>
+    <script src='javascripts/jquery.waypoints.min.js'></script>
+    <script src='javascripts/wow.min.js'></script>
+    <!-- %script{:src => "javascripts/jquery.magnific-popup.js"} -->
+    <script src='javascripts/slick.min.js'></script>
+    <script src='javascripts/fastclick.min.js'></script>
+    <script src='javascripts/jquery.nav.js'></script>
+    <script src='javascripts/jquery.parallax.js'></script>
+    <script src='javascripts/countUp.min.js'></script>
+    <script src='javascripts/apps.js'></script>
+  </body>
+</html>
