@@ -4623,6 +4623,8 @@ nav {
       font-size: 14px; }
       nav ol li:first-child:after {
         content: " / "; }
+        nav ol li:nth-child(2):after {
+          content: " / "; }
       nav ol li.current a {
         color: white;
         cursor: default; }
