@@ -211,10 +211,10 @@ $(document).ready(function() {
     originY: 0.5
   });
 
-  if ($('#project-count').length) {
+  if ($('#course-count').length) {
 
-    $('#project-count').addClass("animated").trigger('classChange');
-      $('#project-count').on('classChange', function() {
+    $('#course-count').addClass("animated").trigger('classChange');
+      $('#course-count').on('classChange', function() {
            // alert('hello');
       });
 
@@ -227,16 +227,16 @@ $(document).ready(function() {
       prefix : '', 
       suffix : '' 
     };
-    var counter = new CountUp("number", 0000, 3761, 0, 4, options);
+    var counter = new CountUp("number", 0000, 1000, 0, 4, options);
     // counter.start();
 
     overload = function() {
-      $('#project-count').addClass('overflow');
+      $('#course-count').addClass('overflow');
       $('#number').html('OVERFLOW');
     }
 
     var waypoint = new Waypoint({
-      element: document.getElementById('project-count'),
+      element: document.getElementById('course-count'),
       handler: function(direction) {    
         if (direction === 'down') {
           counter.start(overload);
@@ -288,9 +288,115 @@ $(window).bind('resizeEnd', function() {
 });
 
 
-
-
 $(window).scroll(function(){
 
 });
 
+
+$("#signup").animatedModal({
+    modalTarget:'animatedModal',
+    animatedIn:'bounceInUp',
+    animatedOut:'bounceOutDown',
+    color:'#61c2ac',
+    animationDuration:'1s',
+    overflow:'scroll'
+});
+
+$("#modalPython").animatedModal({
+    modalTarget:'animatedModalPython',
+    animatedIn:'bounceInUp',
+    animatedOut:'bounceOutDown',
+    color:'#232323',
+    animationDuration:'1s',
+    overflow:'scroll'
+});
+
+$("#modalJava").animatedModal({
+    modalTarget:'animatedModalJava',
+    animatedIn:'bounceInUp',
+    animatedOut:'bounceOutDown',
+    color:'#232323',
+    animationDuration:'1s',
+    overflow:'scroll'
+});
+
+$("#modalWeb").animatedModal({
+    modalTarget:'animatedModalWeb',
+    animatedIn:'bounceInUp',
+    animatedOut:'bounceOutDown',
+    color:'#232323',
+    animationDuration:'1s',
+    overflow:'scroll'
+});
+
+$("#modalDjango").animatedModal({
+    modalTarget:'animatedModalDjango',
+    animatedIn:'bounceInUp',
+    animatedOut:'bounceOutDown',
+    color:'#232323',
+    animationDuration:'1s',
+    overflow:'scroll'
+});
+
+$("#modalDB").animatedModal({
+    modalTarget:'animatedModalDB',
+    animatedIn:'bounceInUp',
+    animatedOut:'bounceOutDown',
+    color:'#232323',
+    animationDuration:'1s',
+    overflow:'scroll'
+});
+
+$("#modalASP").animatedModal({
+    modalTarget:'animatedModalASP',
+    animatedIn:'bounceInUp',
+    animatedOut:'bounceOutDown',
+    color:'#232323',
+    animationDuration:'1s',
+    overflow:'scroll'
+});
+
+$("#modalGo").animatedModal({
+    modalTarget:'animatedModalGo',
+    animatedIn:'bounceInUp',
+    animatedOut:'bounceOutDown',
+    color:'#232323',
+    animationDuration:'1s',
+    overflow:'scroll'
+});
+
+$("#modalAndroid").animatedModal({
+    modalTarget:'animatedModalAndroid',
+    animatedIn:'bounceInUp',
+    animatedOut:'bounceOutDown',
+    color:'#232323',
+    animationDuration:'1s',
+    overflow:'scroll'
+});
+
+$("#modalApple").animatedModal({
+    modalTarget:'animatedModalApple',
+    animatedIn:'bounceInUp',
+    animatedOut:'bounceOutDown',
+    color:'#232323',
+    animationDuration:'1s',
+    overflow:'scroll'
+});
+
+$("#modalML").animatedModal({
+    modalTarget:'animatedModalML',
+    animatedIn:'bounceInUp',
+    animatedOut:'bounceOutDown',
+    color:'#232323',
+    animationDuration:'1s',
+    overflow:'scroll'
+});
+
+$("#modalNets").animatedModal({
+    modalTarget:'animatedModalNets',
+    animatedIn:'bounceInUp',
+    animatedOut:'bounceOutDown',
+    color:'#232323',
+    animationDuration:'1s',
+    overflow:'scroll'
+});
